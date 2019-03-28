@@ -8,6 +8,7 @@ void ShellSort(vector<int> &vec);
 
 int main(int argc, const char * argv[])
 {
+
     int arr[] = {4,2,8,9,0,1};
 	vector<int>vectorArray(arr, arr + sizeof(arr)/sizeof(int));
     ShellSort(vectorArray);
